@@ -10,13 +10,17 @@ class App extends Component {
       <div>
         <Container>
           <Row>
-            <h1>Mobile Printing Services</h1>
-          </Row>
-          <Row>
-            <LibraryDD />
+            <Col>
+              <h4>Mobile Printing Services</h4>
+            </Col>
           </Row>
           <Row>
             <Instructions />
+          </Row>
+          <Row>
+            <Col>
+              <LibraryDD />
+            </Col>
           </Row>
         </Container>
       </div>
