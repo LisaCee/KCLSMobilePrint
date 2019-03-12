@@ -8,11 +8,21 @@ const Upload = () => {
         <div>
             <Container>
                 <Card>
-                    <CardTitle>Printer</CardTitle>
-                    <i className="fas fa-file-alt fa-3x" />
+                    <Row className="header">
+                        <Col xs="2">
+                            <i className="fas fa-file-alt fa-3x" />
+                        </Col>
+                        <Col>
+                            <h5>Upload</h5>
+                        </Col>
+                    </Row>
                     <CardBody>
                         <CardText>
-                            <div />
+                            <div id="file">
+                                <input />
+                                <input type="file" name="pic" accept="image/*" />
+                                <input type="submit" />
+                            </div>
                         </CardText>
                     </CardBody>
                 </Card>

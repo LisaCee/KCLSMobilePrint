@@ -8,25 +8,36 @@ const Printer = () => {
         <div>
             <Container>
                 <Card>
-                    <CardTitle>Printer</CardTitle>
-                    <i className="fas fa-print fa-3x" />
+                    <Row className="header">
+                        <Col xs="2">
+                            <i className="fas fa-print fa-3x" />
+                        </Col>
+                        <Col>
+                            <h5>Printer</h5>
+                        </Col>
+                    </Row>
                     <CardBody>
                         <CardText>
-                            <div>
-                                <input
-                                    type="radio"
-                                    id="huey"
-                                    name="drone"
-                                    value="huey"
-                                    checked
-                                />
-                                <label for="huey">Black and White</label>
-                            </div>
-
-                            <div>
-                                <input type="radio" id="huey" name="drone" value="huey" />
-                                <label for="huey">Color</label>
-                            </div>
+                            <Row>
+                                <Col>
+                                    <div>
+                                        <input
+                                            type="radio"
+                                            id= "bw"
+                                            name="bw"
+                                            value="bw"
+                                            checked
+                                        />
+                                        <label for="bw">Black and White</label>
+                                    </div>
+                                </Col>
+                                <Col>
+                                    <div>
+                                        <input type="radio" id="color" name="color" value="color" />
+                                        <label for="color">Color</label>
+                                    </div>
+                                </Col>
+                            </Row>
                         </CardText>
                     </CardBody>
                 </Card>

@@ -17,17 +17,27 @@ const User = () => {
         <div>
             <Container>
                 <Card>
-                    <CardTitle>User Info</CardTitle>
-                    <i className="fas fa-user fa-3x" />
+                    <Row className="header">
+                        <Col xs="2">
+                            <i className="fas fa-user fa-3x" />
+                        </Col>
+                        <Col>
+                            <h5>User Info</h5>
+                        </Col>
+                    </Row>
                     <CardBody>
-                        <CardText>
-                            <Input />
-                            <Label>Email Address</Label>
-                            <FormText>
-                                You will sign in with this email address when you retrieve your
-                                prints.
-              </FormText>
-                        </CardText>
+                        <Row>
+                            <Col>
+                                <CardText>
+                                    <Input />
+                                    <Label>Email Address</Label>
+                                    <FormText>
+                                        You will sign in with this email address when you retrieve
+                                        your prints.
+                  </FormText>
+                                </CardText>
+                            </Col>
+                        </Row>
                     </CardBody>
                 </Card>
             </Container>

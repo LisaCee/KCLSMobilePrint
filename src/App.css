@@ -1,10 +1,13 @@
 * {
   line-height: 1.5;
+  padding: 1%;
 }
+
 h4 {
   text-align: center;
   font-size: 1rem;
 }
+
 .instructions {
   border: 1px solid #000000;
   background-color: rgb(197, 194, 194);
@@ -14,4 +17,41 @@ h4 {
 
 select {
   min-width: 80%;
+}
+
+div.header.row {
+  background-color: #55adc9;
+  color: white;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#print_button {
+  background-color: #25ab10;
+  border: 0;
+}
+
+#print_button:hover {
+  background-color: white;
+  color: #25ab10;
+  border: 1.5px solid #25ab10;
+}
+
+#cancel_button {
+  background-color: red;
+  border: 0;
+}
+
+#cancel_button:hover {
+  background-color: white;
+  color: red;
+  border: 1.5px solid red;
+}
+
+input {
+  display: block;
+}
+
+#file input {
+  display: inline;
 }
