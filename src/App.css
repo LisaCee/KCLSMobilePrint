@@ -2,12 +2,10 @@
   line-height: 1.5;
   padding: 1%;
 }
-
 h4 {
   text-align: center;
   font-size: 1rem;
 }
-
 .instructions {
   border: 1px solid #000000;
   background-color: rgb(197, 194, 194);
@@ -48,10 +46,21 @@ div.header.row {
   border: 1.5px solid red;
 }
 
-input {
-  display: block;
+label {
+  min-width: 100%;
 }
 
-#file input {
-  display: inline;
+input.radio {
+  margin-right: 2%;
+}
+
+@media screen and (max-width: 600px) {
+  h5 {
+    text-align: center;
+  }
+}
+
+div#buttons.row {
+  display: block;
+  justify-content: space-between;
 }

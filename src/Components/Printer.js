@@ -19,22 +19,34 @@ const Printer = () => {
                     <CardBody>
                         <CardText>
                             <Row>
-                                <Col>
+                                <Col xs="6" lg="6">
                                     <div>
-                                        <input
-                                            type="radio"
-                                            id= "bw"
-                                            name="bw"
-                                            value="bw"
-                                            checked
-                                        />
-                                        <label for="bw">Black and White</label>
+                                        <label class="radio-inline" for="bw">
+                                            <input
+                                                type="radio"
+                                                className="radio"
+                                                id="bw"
+                                                name="bw"
+                                                value="bw"
+                                                checked
+                                            />
+                                            Black and White
+                    </label>
                                     </div>
                                 </Col>
                                 <Col>
                                     <div>
-                                        <input type="radio" id="color" name="color" value="color" />
-                                        <label for="color">Color</label>
+                                        <label class="radio-inline" for="color">
+                                            <input
+                                                type="radio"
+                                                className="radio"
+                                                id="color"
+                                                name="color"
+                                                value="color"
+                                                checked
+                                            />
+                                            Color
+                    </label>
                                     </div>
                                 </Col>
                             </Row>
