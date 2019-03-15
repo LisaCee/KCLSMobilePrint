@@ -2,19 +2,40 @@
   line-height: 1.5;
   padding: 1%;
 }
+
+h1 {
+  text-align: center;
+}
+
 h4 {
   text-align: center;
   font-size: 1rem;
 }
+
 .instructions {
-  border: 1px solid #000000;
-  background-color: rgb(197, 194, 194);
+  background-color: #55adc9;
+  color: white;
+  font-weight: bold;
   padding: 1%;
+  margin: 0 auto;
+}
+
+.instructions a {
+  color: lightgrey;
+}
+
+.instructions a:hover {
+  color: #1B3740;
+}
+
+.col select {
+  display: block;
   margin: 0 auto;
 }
 
 select {
   min-width: 80%;
+  font-weight: bold;
 }
 
 div.header.row {
@@ -46,6 +67,18 @@ div.header.row {
   border: 1.5px solid red;
 }
 
+#next {
+  float: right;
+  background-color: #25ab10;
+  border: 0;
+}
+
+#next:hover {
+  background-color: white;
+  color: #25ab10;
+  border: 1.5px solid #25ab10;
+}
+
 label {
   min-width: 100%;
 }
@@ -54,13 +87,13 @@ input.radio {
   margin-right: 2%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 525px) {
   h5 {
     text-align: center;
   }
 }
 
 div#buttons.row {
-  display: block;
-  justify-content: space-between;
+  display: flex;
+  justify-content: space-around;
 }

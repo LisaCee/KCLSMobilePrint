@@ -3,6 +3,7 @@ import LibraryDD from "./LibraryDD";
 import Instructions from "./Instructions";
 import { Button } from "reactstrap";
 import { Container, Row, Col } from "reactstrap";
+import { Link } from "react-router-dom";
 
 const FrontPage = () => {
   return (
@@ -25,7 +26,8 @@ const FrontPage = () => {
         </Row>
         <Row>
           <Col>
-            <Button>Next</Button>
+
+            <Button id="next">Next</Button>
           </Col>
         </Row>
       </Container>

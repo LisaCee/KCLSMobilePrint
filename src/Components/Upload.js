@@ -19,7 +19,7 @@ const Upload = () => {
                     <CardBody>
                         <CardText>
                             <div id="file">
-                                <input />
+                                {/* <input /> */}
                                 <input type="file" name="pic" accept="image/*" />
                                 <input type="submit" />
                             </div>
