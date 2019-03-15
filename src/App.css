@@ -21,7 +21,8 @@ h4 {
 }
 
 .instructions a {
-  color: lightgrey;
+  color: white;
+  text-decoration: underline;
 }
 
 .instructions a:hover {
